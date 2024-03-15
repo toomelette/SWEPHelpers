@@ -4,7 +4,7 @@ namespace Gguance\SwepHelpers;
 
 use Illuminate\Support\Collection;
 
-class __select
+class Select
 {
     private $name,
         $label,
