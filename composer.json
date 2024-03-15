@@ -13,5 +13,18 @@
             "email": "sramisvis@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.8-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Gguance\\SwepHelpers\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Gguance\\SwepHelpers\\Facades\\SwepHelpers"
+            }
+        }
+    }
 }
