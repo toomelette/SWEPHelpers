@@ -1,0 +1,17 @@
+{
+    "name": "gguance/swep-helpers",
+    "description": "Helpers for SRA Web Portal",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Gguance\\SwepHelpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MISVIS",
+            "email": "sramisvis@gmail.com"
+        }
+    ],
+    "require": {}
+}
