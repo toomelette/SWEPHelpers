@@ -21,7 +21,7 @@ class Select
 
     public static function make()
     {
-        return new __select();
+        return new Select();
     }
 
     public function __construct()
