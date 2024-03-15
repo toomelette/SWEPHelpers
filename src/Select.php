@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Swep\FormHelpers;
+namespace Gguance\SwepHelpers;
 
 use Illuminate\Support\Collection;
 
