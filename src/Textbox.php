@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Swep\FormHelpers;
+namespace Gguance\SwepHelpers;
 
 use Illuminate\Support\Collection;
 
-class __textbox
+class Textbox
 {
 
     private $name,
@@ -20,7 +20,7 @@ class __textbox
 
     public static function make()
     {
-        return new __textbox();
+        return new Textbox();
     }
 
     public function __construct()
